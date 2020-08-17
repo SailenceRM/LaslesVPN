@@ -252,3 +252,7 @@ a {
 div.header__nav.active {
   top: 100%;
 }
+
+.header__sign.active {
+  display: none;
+}
