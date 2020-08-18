@@ -182,6 +182,10 @@ a {
 }
 
 @media (max-width: 769px) {
+  .header {
+    position: fixed;
+    top: 0;
+  }
   .header__row {
     display: flex;
     justify-content: space-between;
