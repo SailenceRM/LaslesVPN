@@ -51,6 +51,7 @@ a {
   position: sticky;
   top: 0;
   padding: 0.6em 0;
+  border-bottom: 2px solid #DDDDDD;
 }
 .header__row {
   display: flex;
@@ -185,6 +186,7 @@ a {
   .header {
     position: fixed;
     top: 0;
+    width: 100%;
   }
   .header__row {
     display: flex;
