@@ -236,6 +236,9 @@ a {
   .about__text {
     order: 2;
   }
+  .wrapper {
+    margin-top: 0;
+  }
 }
 .about-bm__row {
   display: flex;
