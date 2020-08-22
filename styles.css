@@ -822,9 +822,9 @@ div.header__sign.active {
 
 .registration {
   position: fixed;
-  top: -999999px;
+  top: 50%;
   transition: 0.3s;
-  left: 50%;
+  left: 150%;
   transform: translate(-50%, -50%);
   background: #ffffff;
   padding: 2em 4em;
@@ -893,5 +893,5 @@ div.header__sign.active {
 }
 
 .regactive {
-  top: 50%;
+  left: 50%;
 }
