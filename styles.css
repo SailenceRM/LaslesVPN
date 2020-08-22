@@ -822,7 +822,7 @@ div.header__sign.active {
 
 .registration {
   position: fixed;
-  top: 150%;
+  top: 250%;
   transition: 0.3s;
   left: 50%;
   transform: translate(-50%, -50%);
