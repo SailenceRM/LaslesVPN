@@ -853,10 +853,10 @@ div.header__sign.active {
 .registration__item input {
   outline: transparent;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #DDDDDD;
 }
 .registration__item input[placeholder] {
-  color: #DDDDDD;
+  color: #000000;
 }
 .registration__end {
   right: 10px;
