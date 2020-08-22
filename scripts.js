@@ -12,3 +12,15 @@ $(document).ready(function(){
 
 	});
 })
+$(document).ready(function(){
+	$('.header__signup').click(function(event){
+		$('.registration').addClass('regactive');
+	});
+})
+
+$(document).ready(function(){
+	$('.registration__end').click(function(event){
+		$('.registration').removeClass('regactive');
+	});
+})
+
