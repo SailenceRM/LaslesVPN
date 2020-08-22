@@ -852,10 +852,11 @@ div.header__sign.active {
 }
 .registration__item input {
   outline: transparent;
-  border: 2px solid #DDDDDD;
+  border: none;
+  border-bottom: 1px solid #000000;
 }
 .registration__item input[placeholder] {
-  color: green;
+  color: #DDDDDD;
 }
 .registration__end {
   right: 10px;
