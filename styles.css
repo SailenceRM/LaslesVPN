@@ -890,6 +890,7 @@ div.header__sign.active {
   color: #ffffff;
   font-weight: 700;
   margin-top: 1em;
+  border-radius: 0.5em;
 }
 .registration__button:active {
   transform: scale(0.96);
