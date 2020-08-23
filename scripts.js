@@ -16,6 +16,9 @@ $(document).ready(function(){
 	$('.header__signup').click(function(event){
 		$('.registration').addClass('regactive');
 	});
+	$('.header__nav-item').click(function(event){
+		$('.header__burger,.header__nav,.header__sign,.plus').removeClass('active');
+	})
 })
 
 $(document).ready(function(){
