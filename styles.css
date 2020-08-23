@@ -835,6 +835,10 @@ div.header__sign.active {
   flex-direction: column;
   align-items: center;
 }
+.registration__label {
+  color: #4F5665;
+  font-weight: 500;
+}
 .registration__inputs {
   align-self: flex-start;
   margin-bottom: 1em;
@@ -848,15 +852,13 @@ div.header__sign.active {
   flex-direction: column;
 }
 .registration__item + .registration__item {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 .registration__item input {
-  outline: transparent;
+  margin-top: 3px;
   border: none;
+  outline: transparent;
   border-bottom: 1px solid #DDDDDD;
-}
-.registration__item input[placeholder] {
-  color: #000000;
 }
 .registration__end {
   right: 10px;
@@ -869,7 +871,7 @@ div.header__sign.active {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #4F5665;
+  background: #F53855;
   transition: 0.3s;
 }
 .registration__end:before {
@@ -895,4 +897,8 @@ div.header__sign.active {
 
 .regactive {
   left: 50%;
+}
+
+.bodyreg {
+  overflow: hidden;
 }
