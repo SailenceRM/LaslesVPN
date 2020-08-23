@@ -19,6 +19,7 @@ $(document).ready(function(){
 	});
 	$('.header__nav-item').click(function(event){
 		$('.header__burger,.header__nav,.header__sign,.plus').removeClass('active');
+		$('body').removeClass('lock');
 	})
 })
 
