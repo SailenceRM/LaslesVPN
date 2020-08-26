@@ -67,7 +67,7 @@ a {
 }
 .header__row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .header__logotip-text {
@@ -79,6 +79,7 @@ a {
 .header__logotip {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header__nav {
   display: flex;
@@ -111,6 +112,7 @@ a {
   align-items: center;
   font-weight: 500;
   flex-basis: 233px;
+  margin-left: auto;
 }
 .header__signup {
   color: #F53855;
@@ -215,6 +217,7 @@ a {
   }
   .header__sign {
     flex-basis: auto;
+    margin-left: 0;
   }
   .header__signup {
     border: none;
