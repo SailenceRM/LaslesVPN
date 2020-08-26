@@ -318,7 +318,7 @@ a {
     width: 100%;
   }
   .about-bm__item {
-    max-width: 150px;
+    width: 150px;
     justify-content: flex-start;
   }
   .about-bm__item + .about-bm__item {
