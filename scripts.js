@@ -8,14 +8,14 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
 	$('.slider').slick({
-		dots:true,
-		
-
+		dots:true,	
 	});
 })
+
 $(document).ready(function(){
 	$('.header__signup').click(function(event){
 		$('.registration').addClass('regactive');
+		$('body').addClass('bodyreg');
 	});
 	$('.header__nav-item').click(function(event){
 		$('.header__burger,.header__nav,.header__sign,.plus').removeClass('active');
@@ -26,6 +26,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.registration__end').click(function(event){
 		$('.registration').removeClass('regactive');
+		$('body').removeClass('bodyreg');
 	});
 })
 
