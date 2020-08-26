@@ -174,13 +174,17 @@ a {
 @media (max-width: 769px) {
   .header__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .header__logotip-text {
     display: none;
   }
+  .header__logotip {
+    margin-left: auto;
+  }
   .header__burger {
     display: block;
+    margin-right: auto;
   }
   .header__nav {
     display: block;
