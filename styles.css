@@ -180,11 +180,11 @@ a {
     display: none;
   }
   .header__logotip {
-    margin-left: auto;
+    margin-right: auto;
   }
   .header__burger {
     display: block;
-    margin-right: auto;
+    margin-left: auto;
   }
   .header__nav {
     display: block;
@@ -797,6 +797,9 @@ a {
 /*---/ Секция footer  /---*/
 /*--- footer адаптив  ---*/
 @media (max-width: 769px) {
+  .footer {
+    padding:160px 0 120px 0;
+  }
   .footer__row {
     flex-direction: column;
   }
