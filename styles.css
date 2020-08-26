@@ -199,6 +199,7 @@ a {
   }
   .header__nav-item {
     font-size: 2rem;
+    margin-right: 25px;
   }
   .header__nav-item:first-child {
     margin-top: 60px;
