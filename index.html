@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>LaslesVPN</title>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<meta name="viewport" content="width=device-width">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
@@ -14,10 +14,10 @@
 		<header class="header">
 			<div class="container">
 				<div class="header__row">
-					<picture class="header__logotip">
+					<div class="header__logotip">
 						<img  class="header__logotip-img" src="img/logotip.svg" alt="VPN">
 						<h3 class="header__logotip-text">Lasles<b>VPN</b> </h3>
-					</picture>
+					</div>
 					<nav class="header__nav">
 						<a href="#about" class="header__nav-item">About</a>
 						<a href="#features" class="header__nav-item">Features</a>
@@ -36,20 +36,20 @@
 							<h3 class="registration__title">Create an account</h3>
 							<div class="registration__inputs">
 								<div class="registration__item">	
-									<label for="user">Username</label>
-									<input type="text" placeholder="Username" name="user">
+									<label for="user" class="registration__label">Username</label>
+									<input type="text" placeholder="Username" id="user">
 								</div>
 								<div class="registration__item">	
-									<label for="email">Email</label>
-									<input type="text" placeholder="Email" name="email">
+									<label for="email" class="registration__label">Email</label>
+									<input type="text" placeholder="Email" id="email">
 								</div>
 								<div class="registration__item">	
-									<label for="chpass">Chose your password</label>
-									<input type="password" placeholder="Chose your password" name="chpass">
+									<label for="chpass" class="registration__label">Chose your password</label>
+									<input type="password" placeholder="Chose your password" id="chpass">
 								</div>
 								<div class="registration__item">
-									<label for="pass">Confirm password</label>
-									<input type="password" placeholder="Confirm password" name="pass">
+									<label for="pass" class="registration__label">Confirm password</label>
+									<input type="password" placeholder="Confirm password" id="pass">
 								</div>
 							</div>
 							<div class="registration__polices">
@@ -60,13 +60,14 @@
 
 						</div>
 					</form>
+					
 					<div class="header__burger">
 							<span></span>
 					</div>
 				</div>
 			</div>
 		</header>
-		<a name="about"></a>
+
 		<section class="about">
 			<div class="container">
 				<div class="about__row">
@@ -74,6 +75,7 @@
 						<h1 class="about__title">
 							Want anything to be easy with <b>LaslesVPN.</b>
 						</h1>
+						<a id="about"></a>
 						<p class="suptitle about__suptitle">Provide a network for all your needs with ease and fun using <b style="font-weight: 500;">LaslesVPN</b> <br>discover interesting features from us.</p>
 						<a href="#" class="button">Get Started</a>
 					</div>
@@ -84,7 +86,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="about-bm">
+		<div class="about-bm">
 			<div class="container">
 				<div class="about-bm__row">
 					<div class="about-bm__item">
@@ -116,8 +118,8 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<a name="features"></a>
+		</div>
+		<a id="features"></a>
 		<section class="features">
 			<div class="container">
 				<div class="features__row">
@@ -132,6 +134,7 @@
 							<p class="suptitle features__suptitle">You can explore the features that we provide with fun and <br> have their own functions each feature.</p>
 						</div>
 						<div class="features__wrapper">
+
 							<p class="features__item"><span class="plus"></span>Powerfull online protection.</p>
 							<p class="features__item"><span class="plus"></span>Internet without borders.</p>
 							<p class="features__item"><span class="plus"></span>Supercharged VPN</p>
@@ -141,7 +144,7 @@
 				</div>
 			</div>
 		</section>
-		<a name="pricing"></a>
+		<a id="pricing"></a>
 		<section class="pricing">
 			<div class="container">
 				<div class="pricing__row">
@@ -208,12 +211,12 @@
 						<p class="testimonials__suptitle suptitle">See LaslesVPN everywhere to make it easier for you when you move <br>locations.</p>
 					</div>
 					<div class="testimonials__map">
-						<img src="img/Huge Global.svg" alt="" class="testimonials__img">
+						<img src="img/Huge_Global.svg" alt="" class="testimonials__img">
 					</div>
 				</div>
 			</div>
 		</section>
-		<a name="testimonials"></a>
+		<a id="testimonials"></a>
 		<section class="comments">
 			<div class="container">
 				<div class="comments__row">
@@ -313,10 +316,10 @@
 			<div class="container">
 				<div class="footer__row">
 					<div class="footer__left">
-						<picture class="footer__logotip">
+						<div class="footer__logotip">
 							<img  class="header__logotip-img" src="img/logotip.svg" alt="VPN">
 							<h3 class="footer__logotip-text">Lasles<b>VPN</b> </h3>
-						</picture>
+						</div>
 						<p class="suptitle footer__suptitle"><b style="font-weight: 500;">LaslesVPN</b> is a private virtual network that has <br>unique features and has high security.</p>
 						<div class="footer__icons">
 							<a class="footer__icon" href="https://web.facebook.com/" target="_blank"><img src="img/Facebook1.svg" alt="" ></a>
